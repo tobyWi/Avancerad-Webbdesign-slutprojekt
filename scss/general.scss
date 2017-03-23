@@ -1,0 +1,79 @@
+
+
+body {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+
+	p {
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	h1 {
+		font-weight: 400;
+		border-bottom: 2px solid white;
+	}
+
+	h2 {
+		font-size: 30px;
+		margin-top: 0;
+		margin-bottom: 30px;
+		}
+
+	a {
+		&:hover {
+			color: white;
+			text-decoration: none;
+		}
+		&:visited {
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+
+.box {
+	background: linear-gradient(rgba(102, 255, 255, 1),rgba(102, 255, 255, 0.4));
+	color: black;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.button {
+	&.black {
+		background-color: black;
+		border-radius: 5px;
+		display: block;
+		padding: 5px;
+		width: 100px;
+	}
+	&.white {
+		color: black;
+		background-color: white;
+		border-radius: 5px;
+		padding: 5px;
+		margin-top: 20px;
+	}
+	
+}
+
+.mbottom {
+	margin-bottom: 20px;
+}
+
+.mtop0 {
+	margin-top: 0;
+}
+
+.mtop100 {
+	margin-top: 100px;
+}
+
+
+.mtop50 {
+	margin-top: 50px;
+}
+
+.white {
+	background-color: white;
+}
